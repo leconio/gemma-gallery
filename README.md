@@ -1,6 +1,8 @@
 # Gemma Gallery
 
-On-device photo search and organization for Android and iOS, built with Kotlin Multiplatform and [EmbeddingGemma 2 Text-Vision 440M](https://huggingface.co/litert-community/embeddinggemma-2-text-vision-440m-litert-lm).
+On-device photo search and organization for Android and iOS, built with Kotlin Multiplatform and [EmbeddingGemma 2](https://huggingface.co/google/embeddinggemma-2).
+
+**Model downloads:** [309.56 MB compact model and model card](https://huggingface.co/spawnlau/embeddinggemma-2-text-vision-440m-compact) · [Download files, checksums and integration notes](docs/model-downloads.md).
 
 Connect your system photo library, index photos locally, and search by image content. The Compose UI and experiment logic are shared; Android uses MediaStore and iOS uses PhotoKit.
 
@@ -73,7 +75,9 @@ Android Lab flows have been exercised on MuMu with the real model. iOS build che
 
 ## Model and local data
 
-The model is a separate **387,710,976-byte download** (about 388 MB / 370 MiB), verified against a pinned SHA-256. It downloads once per app installation, with pause/resume support, and is checked again on later launches. After download, indexing and search run locally. The model is not bundled in the APK or Git repository. See [model-manifest.json](model-manifest.json).
+The [model download page](docs/model-downloads.md) links to the **309.56 MB compact bundle**, its model card and Samsung GPU measurements, plus the original bundle. The compact model is published separately on Hugging Face with build scripts and checksums.
+
+The current app configuration in [model-manifest.json](model-manifest.json) still pins the original **387,710,976-byte bundle** (about 388 MB / 370 MiB). The compact bundle has passed native text/image inference checks on Samsung Galaxy S25, while full app integration and iOS runtime validation remain pending. The app verifies its configured model against a pinned SHA-256, supports pause/resume, and checks it again on later launches. After download, indexing and search run locally. Model weights are not bundled in the APK or Git repository.
 
 Photo search uses normalized **768-dimensional Float32 vectors**: 3,072 bytes per photo before SQLite metadata and thumbnail caches. The app uses exact cosine ranking. Scores are similarities, not probabilities; the starting search cutoff of 0.68 needs validation against your own collection. [Relevance measurements and known errors](docs/search-relevance.md).
 

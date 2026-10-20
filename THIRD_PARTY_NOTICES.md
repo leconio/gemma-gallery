@@ -6,6 +6,7 @@ The project [LICENSE](LICENSE) covers original project code. The components and 
 | --- | --- | --- | --- |
 | Gradle wrapper | [Gradle 9.3.1](https://github.com/gradle/gradle/tree/v9.3.1) | [Apache-2.0](https://github.com/gradle/gradle/blob/v9.3.1/LICENSE) | Wrapper scripts and JAR |
 | EmbeddingGemma 2 Text-Vision 440M | [Pinned community conversion](https://huggingface.co/litert-community/embeddinggemma-2-text-vision-440m-litert-lm/tree/e301f74d5551b0c2641bd5cb4652a76239d5c5f8), based on [Google's model](https://huggingface.co/google/embeddinggemma-2) | Apache-2.0 | Manifest only; weights download separately |
+| EmbeddingGemma 2 Text-Vision 440M Compact | [Compact model card, attribution and build scripts](https://huggingface.co/spawnlau/embeddinggemma-2-text-vision-440m-compact) | Apache-2.0 | Download documentation only; weights are hosted on Hugging Face |
 | LiteRT-LM | [v0.18.0](https://github.com/google-ai-edge/LiteRT-LM/tree/v0.18.0) | [Apache-2.0](https://github.com/google-ai-edge/LiteRT-LM/blob/v0.18.0/LICENSE) | Build dependency; Swift source/binary download is pinned |
 | Kotlin, coroutines and serialization | [JetBrains](https://github.com/JetBrains/kotlin) / [Kotlin libraries](https://github.com/Kotlin) | Apache-2.0 | Build dependencies |
 | Compose Multiplatform | [JetBrains Compose](https://github.com/JetBrains/compose-multiplatform) | Apache-2.0 | Build dependency |
@@ -17,6 +18,8 @@ The project [LICENSE](LICENSE) covers original project code. The components and 
 ## Model and runtime
 
 [model-manifest.json](model-manifest.json) records the model's exact revision, byte count and SHA-256. The pinned model repository declares Apache-2.0 and allows anonymous downloads. The app uses the text and vision variant; it does not implement audio or video embedding.
+
+[Model downloads](docs/model-downloads.md) also lists the compact derivative maintained by Spawn Lau. Its model card credits Google DeepMind and LiteRT Community / Google AI Edge, documents the 256-input-token / 70-vision-token configuration and links back to this app. The current app manifest continues to pin the original bundle; the compact model's native inference validation is separate from full app and iOS acceptance.
 
 [iosApp/sdk-lock.json](iosApp/sdk-lock.json) pins the official LiteRT-LM release commit, Swift source blob IDs and native binary checksum. The preparation script preserves the downloaded upstream source files and LICENSE. It generates a local Package.swift adapter. Native SDK distributions can contain additional third-party components; retain the notices supplied with the upstream SDK when redistributing it.
 
