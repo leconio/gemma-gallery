@@ -1,0 +1,104 @@
+{
+  "purpose": "Functional smoke test; not a quality benchmark",
+  "license": "https://unsplash.com/license",
+  "fixtures": [
+    {
+      "file": "GemmaLab-001.jpg",
+      "category": "dog",
+      "role": "reference",
+      "source": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "95619f5a63c616579e26fb97f507b092c7761e47ee2b319b8a0a74e8c9bb20bb"
+    },
+    {
+      "file": "GemmaLab-002.jpg",
+      "category": "cat",
+      "role": "reference",
+      "source": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "85e9d5f2c2f0938fc273705ae46bd9744c93e01e8e3247f5daceb4c5a125012c"
+    },
+    {
+      "file": "GemmaLab-003.jpg",
+      "category": "beach",
+      "role": "reference",
+      "source": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "aa909e5aa41be961e11f081f7e4e6884f332b042b8c33f957bf193cfda4f3d6c"
+    },
+    {
+      "file": "GemmaLab-004.jpg",
+      "category": "mountain",
+      "role": "reference",
+      "source": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "d83b47a0536def95d547cbb0354a9df3baec62cbeaa78adecb177655b18d3246"
+    },
+    {
+      "file": "GemmaLab-005.jpg",
+      "category": "coffee",
+      "role": "reference",
+      "source": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "599a9fa427d94814a138e50c92ce7a68881584696e6eea235b06d4b82378ef51"
+    },
+    {
+      "file": "GemmaLab-006.jpg",
+      "category": "bicycle",
+      "role": "reference",
+      "source": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "d5716caa88b12a71712e13f5e9f8447bf280d901be2303ebb0dc1928bc842e66"
+    },
+    {
+      "file": "GemmaLab-007.jpg",
+      "category": "dog",
+      "role": "heldout",
+      "source": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "238b4f7f1ca5af9db132c0c830d4535b4281e92fc526245d705c9f5ccc068fda"
+    },
+    {
+      "file": "GemmaLab-008.jpg",
+      "category": "cat",
+      "role": "heldout",
+      "source": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "384bc75038a24f8d6f81bb6e044e4363c999afc3cedaeb24155aa69dbeb26b6c"
+    },
+    {
+      "file": "GemmaLab-009.jpg",
+      "category": "beach",
+      "role": "heldout",
+      "source": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "c3c5b1379f984a11a93e1a191bfcfe689dcce9b42e4257ff2303b5adbf8eba50"
+    },
+    {
+      "file": "GemmaLab-010.jpg",
+      "category": "mountain",
+      "role": "heldout",
+      "source": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "addff95253ba3d6b5b83a47c286bc9eaa09a69c8e1792b9efe353de1fab4fdc6"
+    },
+    {
+      "file": "GemmaLab-011.jpg",
+      "category": "coffee",
+      "role": "heldout",
+      "source": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "48b85f65f07b52e3111d2b98a2e15fbc2c2a4f666832a42ea8f8b5d2fb75f5a6"
+    },
+    {
+      "file": "GemmaLab-012.jpg",
+      "category": "bicycle",
+      "role": "heldout",
+      "source": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "3a35b5662367f1b6c0960caac08d5c32513871257f8715351bc9fbf56037d414"
+    },
+    {
+      "file": "GemmaLab-013.jpg",
+      "category": "pizza",
+      "role": "unknown",
+      "source": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "715773c742c1696154730697522787e4cdb8ee19a3b12bad00bbf36ccd7329d8"
+    },
+    {
+      "file": "GemmaLab-014.jpg",
+      "category": "laptop",
+      "role": "unknown",
+      "source": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=85&fm=jpg",
+      "sha256": "6c04f4ab858681165a89064f428995c8179fdba391304184659ce2bc5b55975d"
+    }
+  ]
+}

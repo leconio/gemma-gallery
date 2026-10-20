@@ -1,0 +1,18 @@
+Gemma Gallery
+Copyright 2026 Gemma Gallery contributors
+
+Project code is licensed under the Apache License, Version 2.0.
+
+The Gradle wrapper scripts and JAR retain the notices of their original authors
+and are distributed under Apache-2.0.
+
+This project uses Google's EmbeddingGemma 2 model and LiteRT-LM runtime.
+They retain their upstream Apache-2.0 licenses and attribution notices. Model
+weights and the downloaded Swift SDK are not included in this source tree.
+
+Debug fixtures and photographs visible in the demo media are from Unsplash and
+remain subject to the Unsplash License. They are not relicensed by this project's
+code license. The optional HDR+ benchmark dataset is downloaded separately under
+CC BY-SA 4.0.
+
+See THIRD_PARTY_NOTICES.md for sources, versions, licenses and fixture manifests.

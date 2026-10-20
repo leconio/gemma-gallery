@@ -1,0 +1,32 @@
+{
+  "appVersion": "0.6.0",
+  "sourceCommit": "1178ab21b0f9a9d0139d8f33aff4674a32478f5b",
+  "runtime": "MuMu Android 15 x86_64 with LiteRT-LM 0.18.0",
+  "fixtureManifest": "tests/fixtures/lab-photos.json",
+  "inputPhotos": 14,
+  "preIndexed": true,
+  "photoLicense": "https://unsplash.com/license",
+  "videos": [
+    {
+      "file": "tags-2x.mp4",
+      "sha256": "a2c1e83c2995b1587209ba1b8a4df8ebbf5d8d54beacc5baabd3514f7d3e1ea4",
+      "durationSeconds": 50.13,
+      "speed": 2,
+      "audioStreams": 0
+    },
+    {
+      "file": "similar-2x.mp4",
+      "sha256": "7bc96d166fe3fabfb4a8bdaa948c2358de577f29678fe22a9e2cc18f9a7b4f03",
+      "durationSeconds": 30.17,
+      "speed": 2,
+      "audioStreams": 0
+    },
+    {
+      "file": "groups-2x.mp4",
+      "sha256": "aa620da6fcc5f3b51afd142dc4ea5d36afe98c286e008c967595a6b6b7984116",
+      "durationSeconds": 41.13,
+      "speed": 2,
+      "audioStreams": 0
+    }
+  ]
+}

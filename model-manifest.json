@@ -1,0 +1,9 @@
+{
+  "repository": "litert-community/embeddinggemma-2-text-vision-440m-litert-lm",
+  "revision": "e301f74d5551b0c2641bd5cb4652a76239d5c5f8",
+  "filename": "embeddinggemma-2-text-vision-440m.litertlm",
+  "size": 387710976,
+  "sha256": "92dcbea108899e5d6e30d919b0744f90d9967e80c67a4ab5503ac16d54f62eb0",
+  "license": "Apache-2.0",
+  "source": "https://huggingface.co/litert-community/embeddinggemma-2-text-vision-440m-litert-lm"
+}

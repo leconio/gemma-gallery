@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "defaults": {
+    "build": [
+      "android"
+    ]
+  },
+  "runners": {
+    "wsl": {
+      "preset": "gemma-android-java21"
+    },
+    "air": {
+      "preset": "gemma-apple-java21"
+    }
+  },
+  "targets": {
+    "android": {
+      "runner": "wsl",
+      "commands": {
+        "doctor": {
+          "steps": [
+            [
+              "java",
+              "-version"
+            ],
+            [
+              "bash",
+              "./gradlew",
+              "--version"
+            ]
+          ]
+        },
+        "test": {
+          "steps": [
+            [
+              "bash",
+              "./gradlew",
+              "--no-daemon",
+              "--max-workers=2",
+              ":shared:jvmTest"
+            ],
+            [
+              "python3",
+              "scripts/test_downloader.py"
+            ]
+          ],
+          "artifacts": [
+            "shared/build/test-results/jvmTest/*.xml"
+          ]
+        },
+        "build": {
+          "steps": [
+            [
+              "bash",
+              "./gradlew",
+              "--no-daemon",
+              "--max-workers=2",
+              ":app:assembleDebug",
+              ":app:lintDebug",
+              ":app:assembleRelease",
+              ":app:lintRelease",
+              ":app:assembleDebugAndroidTest"
+            ],
+            [
+              "python3",
+              "scripts/check_release_apk.py",
+              "app/build/outputs/apk/release/app-release-unsigned.apk"
+            ]
+          ],
+          "artifacts": [
+            "app/build/outputs/apk/debug/app-debug.apk",
+            "app/build/reports/lint-results-debug.html",
+            "app/build/reports/lint-results-debug.xml",
+            "app/build/outputs/apk/release/app-release-unsigned.apk",
+            "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+            "app/build/reports/lint-results-release.xml"
+          ]
+        }
+      }
+    },
+    "android-emulator": {
+      "runner": "wsl",
+      "commands": {
+        "build": {
+          "steps": [
+            [
+              "bash",
+              "./gradlew",
+              "--no-daemon",
+              "--max-workers=2",
+              "-Pgemma.emulator=true",
+              ":app:assembleDebug",
+              ":app:assembleDebugAndroidTest",
+              ":app:lintDebug"
+            ]
+          ],
+          "artifacts": [
+            "app/build/outputs/apk/debug/app-debug.apk",
+            "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+            "app/build/reports/lint-results-debug.xml"
+          ]
+        }
+      }
+    },
+    "ios": {
+      "runner": "air",
+      "commands": {
+        "build": {
+          "steps": [
+            [
+              "python3",
+              "scripts/build_ios.py"
+            ]
+          ],
+          "artifacts": [
+            "iosApp/build/build-summary.json"
+          ]
+        },
+        "doctor": {
+          "steps": [
+            [
+              "xcodebuild",
+              "-version"
+            ],
+            [
+              "xcrun",
+              "--sdk",
+              "iphonesimulator",
+              "--show-sdk-version"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

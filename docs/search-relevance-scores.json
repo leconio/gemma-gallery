@@ -1,0 +1,3922 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "modelSha256": "92dcbea108899e5d6e30d919b0744f90d9967e80c67a4ab5503ac16d54f62eb0",
+  "backend": "CPU",
+  "threads": 4,
+  "dimensions": 768,
+  "visionTokens": 70,
+  "minimumSimilarity": 0.68,
+  "photoCount": 12,
+  "absentCategoryQueries": [
+    "a car",
+    "a computer",
+    "a pizza",
+    "a document",
+    "a train",
+    "a smartphone",
+    "an airplane",
+    "a birthday cake",
+    "a horse",
+    "an elephant",
+    "a giraffe",
+    "a laptop",
+    "a bus",
+    "a motorcycle",
+    "a truck",
+    "a boat",
+    "a tiger",
+    "a lion",
+    "a bowl of noodles",
+    "a receipt",
+    "a selfie",
+    "汽车",
+    "电脑",
+    "披萨",
+    "火车",
+    "手机",
+    "飞机",
+    "大象"
+  ],
+  "cohorts": [
+    {
+      "queries": [
+        {
+          "query": "a dog",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.73071300967119
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6463903216540062
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6217691674618108
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6184661585441339
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6152217681868944
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5957900880780621
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5942245316298421
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5938449076678383
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5903596754019523
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5821088323264103
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5801488449798876
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5620050720365944
+            }
+          ]
+        },
+        {
+          "query": "a cat",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.7409415888031448
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6503936944499156
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6316612114169238
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.613398734424446
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6090512277183412
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6050207159270485
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6044033038525873
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5972210076461639
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5935275966580225
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5884752970777217
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5835158523581913
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5683544221617169
+            }
+          ]
+        },
+        {
+          "query": "a cup of coffee",
+          "scores": [
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.7175583168385173
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6057562127283848
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6057256240523816
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6057086950353068
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.604785725369446
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6037325396354736
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.60096516915223
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5978419058984886
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5948370479927428
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5817458821626719
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.579154897157867
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5787955643827013
+            }
+          ]
+        },
+        {
+          "query": "mountains",
+          "scores": [
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.7518136051557733
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6706107336159044
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6621999873887644
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6615120141413728
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6533068853513471
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.641223046170796
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6254496395359533
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6204747991109952
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6124434107440303
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6117252169570689
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.60858649320225
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.605904098115058
+            }
+          ]
+        },
+        {
+          "query": "a bicycle",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.7352807889755308
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6198724651073881
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6077635878485543
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.603063401387132
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5997079888329896
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5819404594740728
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5711096019929522
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5692243288198527
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5682468819009293
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5675700231924428
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5648971535285282
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5624567908346357
+            }
+          ]
+        },
+        {
+          "query": "a beach",
+          "scores": [
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.7223197613435192
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.715600978400538
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.616361214191489
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6150179239296184
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.607015455622244
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5949728336767675
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5898913483306671
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5884710138528731
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5878725761061852
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5877690348722955
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5860340680548731
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5559448327853341
+            }
+          ]
+        },
+        {
+          "query": "dog",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.7489482252499008
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6537405676257254
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6245332351036333
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.619165062524802
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6177850682516223
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6082160391091986
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6029558343422249
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.597201834827787
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5962268360528692
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5939824963580564
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5861239486475249
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5771232190303252
+            }
+          ]
+        },
+        {
+          "query": "cat",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.7461903562590234
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6595228359056388
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6314553640286624
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6229085616841836
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6154446348066746
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6093795117183636
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6076732958755466
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6063681669345719
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6040991551051378
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5989149837652801
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5939408907855909
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5830657750776114
+            }
+          ]
+        },
+        {
+          "query": "coffee",
+          "scores": [
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.7335317445050815
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.62847249454467
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6233170656434905
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6199670105390791
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6198446797982672
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6145260085214177
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6105316743569302
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.609727303281436
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6095437485117783
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6012091221284681
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5983418438238344
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5912520508811779
+            }
+          ]
+        },
+        {
+          "query": "mountain landscape",
+          "scores": [
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.7518409588718792
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.692656805385033
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6845813007580756
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6652518209776115
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6499384552296981
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6479059143454058
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6164106041398412
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6052031871716643
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6038515158758688
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5936492622247724
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5928582413429216
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5866764259834188
+            }
+          ]
+        },
+        {
+          "query": "bike",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.7432502733255497
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6219204314089716
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.62028056799312
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6152653669739397
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6074462709362461
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.604786798096806
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6018004570537434
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5999089317164009
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5909922094100339
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5893072485620982
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5882834788399119
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5755214503857273
+            }
+          ]
+        },
+        {
+          "query": "seaside",
+          "scores": [
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.7214998492376625
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.7005645648264751
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6540276218442918
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6490474744162754
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6289310573003639
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6196320789399585
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6148743511843591
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6121083363285528
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6023691069735106
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.599799786905564
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5934124615789671
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5914444416881193
+            }
+          ]
+        },
+        {
+          "query": "animals",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6912897214016955
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6856938134955431
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6413727966635108
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6222883339505545
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6207697523150231
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6203072543071809
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6180522408953272
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.616553271905904
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6053619353018376
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6042483011568811
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6035274308718084
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5915357219158052
+            }
+          ]
+        },
+        {
+          "query": "pets",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.7135297757743949
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6848936048301552
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6434771264776419
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6230804775366726
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6226921806413378
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6222948595883563
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.614845814368887
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6016527283404994
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5987457447466742
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5982913683584689
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5960470294428656
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5927120223984775
+            }
+          ]
+        },
+        {
+          "query": "landscape",
+          "scores": [
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.7277626894598537
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.7261335135637059
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.7249265584079704
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.7019288615259326
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6925759363734489
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6863845637779574
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.684160181943798
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.641362147643681
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6407288718170403
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6405950873541713
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6153665826716054
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6069148393711
+            }
+          ]
+        },
+        {
+          "query": "flowers",
+          "scores": [
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.747887078778033
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6972747452072744
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6646062044773522
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6587084119303027
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6551109922152202
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.638800028866325
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6362092686459128
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6321768483196257
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6307543691628527
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6202903401248268
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6003661236018366
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5752132927050753
+            }
+          ]
+        },
+        {
+          "query": "a waterfall",
+          "scores": [
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.7484819761885768
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.7452070465911865
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.7283767332221001
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6112003030613512
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6110528384472963
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6071912225231174
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6018330810297455
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.600085196019208
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.591572500082373
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5786705905606264
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5677608475610507
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5663556971207804
+            }
+          ]
+        },
+        {
+          "query": "a car",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6384790629390035
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6257094753166808
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6098018581501854
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6045775984378201
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6007842236153021
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5972632725208955
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5917500462632075
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5916794428090159
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5903756165801678
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5860837477217344
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.570922374911898
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5704492834491357
+            }
+          ]
+        },
+        {
+          "query": "a computer",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6073107443626203
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5967805935983879
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.596255461224692
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5925507091015833
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.590241902320305
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.58899298165111
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5822921341074808
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.580940109601273
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5804933237343797
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5758829474023234
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5679862711587413
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5615141132866035
+            }
+          ]
+        },
+        {
+          "query": "a pizza",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6053372939188173
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5958794314424242
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.592445289308588
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5898114898645538
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5843025245315995
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.576887623386405
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5672586760904765
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5636905920829188
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5558731666949732
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5557815219001091
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5529159208674177
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5487124252436963
+            }
+          ]
+        },
+        {
+          "query": "a document",
+          "scores": [
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6280387272713301
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6210352225144933
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6111327203042886
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6045931169985865
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6016405839397195
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5957048551270119
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5945853230171513
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5920754461472328
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5914268412164267
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5896562670251398
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5881676272595489
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5838593103889393
+            }
+          ]
+        },
+        {
+          "query": "a train",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6380357837664045
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5959185403368877
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5945134515343989
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5816712630095897
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5810982045676062
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5800330194099618
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5767740333002473
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5748110898786536
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.571918079227404
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.570934705755964
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5680320177528005
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5585194996754822
+            }
+          ]
+        },
+        {
+          "query": "a smartphone",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5936449899922207
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5756052785145501
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.573629579767253
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5734113817201816
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5677177124033407
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5557592695697954
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5544547174695494
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5525930156963035
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5511237182677554
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.54853546758782
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5437755709634944
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5435002403711696
+            }
+          ]
+        },
+        {
+          "query": "an airplane",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6059951026355629
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6019466491962424
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5915225292244827
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5914806163700858
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.588629823819191
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5845291642755488
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5806415089723603
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5805746111793889
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5737089512077419
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.572654731717689
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5699186751676384
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5366177592573774
+            }
+          ]
+        },
+        {
+          "query": "a birthday cake",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5889872453592634
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5804809772477308
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5792388888741719
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5768609632220294
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5767231040879771
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5758016731090881
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5732037361074211
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5673356250110502
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5661687572929145
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5629717890135799
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5619820601431635
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.554017118625975
+            }
+          ]
+        },
+        {
+          "query": "a horse",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6354483483992697
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6348424998590838
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.627548484183979
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6264169139449007
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6079204817188736
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6049991769597121
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5950509517233769
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5857541754578399
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5791493971955508
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5733039945680916
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5673540292383568
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5584146827668481
+            }
+          ]
+        },
+        {
+          "query": "an elephant",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6087372612751542
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6078636636269419
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6078056243881783
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6063435287197706
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5962758308545634
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5917507419331294
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5872248004495044
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5808826594484267
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5739351465697976
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5736370288202207
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5603069700762399
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5486883393818267
+            }
+          ]
+        },
+        {
+          "query": "a giraffe",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6157151599868544
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6134667889549099
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6030963113724512
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6007037576300441
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5922438144208022
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.584504412729982
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5833139083107015
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.579948759128111
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5612580765276604
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5592677545282811
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5584025467533947
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.556277575671949
+            }
+          ]
+        },
+        {
+          "query": "狗",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.72432024993099
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6441203557680502
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6268094056368437
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6236991007487335
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6138386613667703
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6096505088107727
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6090933157177026
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6068976697081077
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6018275748523523
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5990586835136181
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5962707272238671
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5926710349447563
+            }
+          ]
+        },
+        {
+          "query": "猫",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.7418306993211049
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6496667618529678
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6335120793465959
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6329644065161109
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6131622491677795
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6119670607083934
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6053250424872028
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6030947564540131
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6016018508356846
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5994346408333979
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5992074388441775
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5937625508376474
+            }
+          ]
+        },
+        {
+          "query": "咖啡",
+          "scores": [
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.7191445889067849
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6318985451959652
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6282784265156907
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6264792383979373
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6246043218592638
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6122350835051846
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6094163865519596
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6088604296929323
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6087584348948288
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6043474940160086
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6033334434386267
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6028786806651935
+            }
+          ]
+        },
+        {
+          "query": "山",
+          "scores": [
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6817812771477211
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6506157096491246
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6377469602046038
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6373220315955576
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6370567249559163
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6287585518061255
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6279902738665172
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6241230349697521
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6169203535602894
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6104756032951373
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.599070977593884
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5866449375580088
+            }
+          ]
+        },
+        {
+          "query": "自行车",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.7023259909043019
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6129339892445316
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5987287371972835
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5978964261608796
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5913264754149249
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5912950474883869
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5911361420349385
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5901863305617387
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5742060523826098
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5712651841297057
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5680167428095438
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5617101812425975
+            }
+          ]
+        },
+        {
+          "query": "海滩",
+          "scores": [
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.7230897706351963
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.7160868252215729
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6432583965274834
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.630660613182806
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6190531743079388
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6068896317663052
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.606100063594706
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6014650371810092
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6002977230543529
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5991052630542292
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5783840372009974
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5737035539233356
+            }
+          ]
+        },
+        {
+          "query": "宠物",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6976984697820291
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6758674637969936
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6336881950396344
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6267635910961485
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6167397560355234
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6066257151384674
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6022478083292845
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6014930041279822
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.596715684472559
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5965722469256368
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5899940448219471
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5866326959573475
+            }
+          ]
+        }
+      ],
+      "name": "exploratory"
+    },
+    {
+      "queries": [
+        {
+          "query": "a puppy",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6857602034974504
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5997047220419652
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.590032629900391
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5891865317708028
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5816901885290148
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5681279094226562
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5578707057053428
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5563182318948338
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5554958292909501
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5553904297165432
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5475280484641173
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5444463536883558
+            }
+          ]
+        },
+        {
+          "query": "a kitten",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6827829600004255
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6262252048153486
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6208437568244195
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6012994779499061
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5830284027828592
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5763758946352607
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.574850486370601
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5746829761503596
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.571386686571508
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5677416408667241
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.567024285071435
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5596900345252778
+            }
+          ]
+        },
+        {
+          "query": "a black and white dog",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.686685957556274
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6514889441870398
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6118880829340497
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5988737351649281
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5734310519938827
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5723170896482785
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5714898412082942
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5649140811595527
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5646973580945231
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5600006182241174
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.555336143970086
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5387621389446168
+            }
+          ]
+        },
+        {
+          "query": "a dog playing outside",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.7264593545290499
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6338260524918145
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6037818659780348
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6000632708738954
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5902947144609986
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5830685670086013
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5755989000900645
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5706558832422889
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5693872666096148
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5688908948615277
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5578160543315348
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5202299974972666
+            }
+          ]
+        },
+        {
+          "query": "a cat sitting down",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.7048744911345132
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6512943818136543
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5990537931376368
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5971134425262143
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5967894806762191
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5841086280270753
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5776888695355942
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5750172164964298
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5700526591121201
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5639219878512053
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.55007897105176
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5441973863435428
+            }
+          ]
+        },
+        {
+          "query": "a hot drink",
+          "scores": [
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6832115762234271
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5976338673638381
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5938059825971834
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5933965246122204
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.592399766127165
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5895406194511512
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5874533102650928
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5869858432917687
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5749027057892616
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5719385048019165
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5616895962154688
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5545988612675655
+            }
+          ]
+        },
+        {
+          "query": "a coffee mug",
+          "scores": [
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6776976091998917
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5992481282271508
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5977177222173955
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5940488444617423
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5921624844065768
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.587340683674308
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5843421776307927
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5828954024633116
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5778301283415371
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5584720365185553
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5564843047827019
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5478996500139899
+            }
+          ]
+        },
+        {
+          "query": "a red bicycle",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6809556652169649
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5835423970170677
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5828174543252405
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.568047282004896
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5623979182245085
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5553744888374037
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5463812645213786
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5328234016863316
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5229928076618503
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5214409917080052
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5167437347808203
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5161229290604062
+            }
+          ]
+        },
+        {
+          "query": "a bicycle on the street",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.7062694703447693
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.596867944488556
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5953462716113126
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5882854826781176
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5841137411255594
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5514442031681698
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5435157709313203
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5387681714787461
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5380990661172591
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5322502358127624
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5313509462071238
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5236158814147704
+            }
+          ]
+        },
+        {
+          "query": "snowy mountains",
+          "scores": [
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.7280858983335037
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.619529216912522
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6167728896127289
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6162194046785618
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6144066193099698
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6084772372990211
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.594303815431471
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5940385634825046
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5883178903672331
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5827920945134399
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5799963526009773
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5553481050625482
+            }
+          ]
+        },
+        {
+          "query": "an ocean beach",
+          "scores": [
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.7284080420432912
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.720259997395988
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6098367467377702
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6095884981364315
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5856223324581857
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5841233335384001
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5808099729823004
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.577117339130982
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5660545088013385
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5657568674468947
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5570306809227027
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5375051431695456
+            }
+          ]
+        },
+        {
+          "query": "a sandy shore",
+          "scores": [
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.7371451103584246
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.7113407586123027
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6336838639213233
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6071363718400294
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6063368303811589
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6004020175478048
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5989827189548728
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5989219555804137
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5950609222406696
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5886744506640593
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5839910018532491
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5740739479399408
+            }
+          ]
+        },
+        {
+          "query": "a pet",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.7017118671741307
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6879298127021949
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6440696668071403
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6299390264106218
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6193498012995359
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6034123431303033
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6019188318141485
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5994349428233465
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5967819286465043
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5956433028868009
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5809887280587602
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5804004374198828
+            }
+          ]
+        },
+        {
+          "query": "cats and dogs",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.67113807320037
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6473542559702331
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6055772639136201
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5795753525671428
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5723574560024096
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.569049153081022
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5635710775339098
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.555734978744965
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5547787613157653
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5524152400432513
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5448648402043891
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.540754158777775
+            }
+          ]
+        },
+        {
+          "query": "natural scenery",
+          "scores": [
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.7459005216236457
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.7369910317328453
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.7352674156675809
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.710380019830245
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6920329425196239
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6850313321924263
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.684925302358273
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6572689455970085
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6439884851307103
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6386503374871983
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6267641829226229
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5825533618363069
+            }
+          ]
+        },
+        {
+          "query": "a laptop",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.598867809930577
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5976195106462224
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5965047069043236
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.592239678399013
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5902158329470932
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5879215650036254
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5829854076805079
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5811583793805569
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.579826297902255
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5697108985351719
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5602490884982373
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5376215053419657
+            }
+          ]
+        },
+        {
+          "query": "a bus",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6193146831343838
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5943773857118433
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5911061403630228
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5882185339107561
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5826277485524376
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5775258372472144
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5749073127689578
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5743619406145701
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5676234370690403
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5661375943306545
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5608578983692438
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5530782811517874
+            }
+          ]
+        },
+        {
+          "query": "a motorcycle",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6764758670218237
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6006412741054016
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5954643676685942
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5940402121190111
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5926967805599436
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5887804525705833
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5829839995324674
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5828545163270673
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5824401972676297
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5798595357258629
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.57906759109659
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5600396906083437
+            }
+          ]
+        },
+        {
+          "query": "a truck",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6147460924900459
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5950038466301508
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5878197322963786
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5809365919791477
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5786828450256536
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5777159551313794
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5759702298206903
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5738626815405338
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5714960073068928
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.567392058207221
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5665184168454059
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5544119427863372
+            }
+          ]
+        },
+        {
+          "query": "a boat",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6284915139672219
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6244213306973931
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6139749458792096
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6054420131580396
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6048375502918962
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5952580405007897
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5952547729579943
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5939085378597074
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5938345837065331
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5885307529647765
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5728586066360337
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5629549607471739
+            }
+          ]
+        },
+        {
+          "query": "a tiger",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6537770244838683
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6283598242707571
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6130832577435861
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6112465996751143
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6041808198807465
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.599031903760093
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5975459101009907
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.593387112407258
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5879440172396958
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5877213533316514
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5834886917147855
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5782892370548613
+            }
+          ]
+        },
+        {
+          "query": "a lion",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6315197791140842
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6190913351359489
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6121464754198841
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6087724227890371
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6084741705275277
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6063911023580539
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.604414920252294
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5995000211488745
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5920061523086407
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5884469371885206
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5728744138870763
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5644428913239913
+            }
+          ]
+        },
+        {
+          "query": "a bowl of noodles",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6031985283878721
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5954542315832634
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5930681586789038
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5915872835426952
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5858410936909133
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5837088535064583
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5830860102079662
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5817389195044367
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5808068830682409
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5680668112861835
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5583814664588427
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5435448007709908
+            }
+          ]
+        },
+        {
+          "query": "a receipt",
+          "scores": [
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5833562342705305
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5832824700676346
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5791140438416075
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5762968654715119
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5746176488633776
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5728252622971427
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5726595198445981
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5718304523417996
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.563452649903914
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5607764192498614
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5467198841918852
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5441032762631295
+            }
+          ]
+        },
+        {
+          "query": "a selfie",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6157062482089916
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5975580923153438
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5966283052282306
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5956647033885137
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5874831243968053
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5866727445094385
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5831617773992843
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5827563661317771
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5817259314591868
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5780464067180447
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.573737040192138
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5693019337524228
+            }
+          ]
+        },
+        {
+          "query": "小狗",
+          "scores": [
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6832155124598962
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6017838700863753
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5961027091467713
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5959472329604492
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5941381850123817
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5902898504422748
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5823381708325128
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.577368627258355
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5750085804521682
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5746048009874852
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.554982494596286
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5537862432763035
+            }
+          ]
+        },
+        {
+          "query": "小猫",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6890658771464556
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6092664932799056
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5962125423423804
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5885416572562461
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5883896353290891
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5864654232381283
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5662346697107189
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5630228857836522
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5598509497851115
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5583099450287161
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5574742111131695
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5556416079463259
+            }
+          ]
+        },
+        {
+          "query": "一杯咖啡",
+          "scores": [
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.695907240165601
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.614680013409079
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6052204217393233
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.602880993574084
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6019522343478853
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5961270366011903
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5956729680081398
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5893514762429661
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.583596284743895
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5819975794337907
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.581176983715269
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5703647807360565
+            }
+          ]
+        },
+        {
+          "query": "雪山",
+          "scores": [
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6799023268077825
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6172123276266067
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6123396866989693
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6111371085968242
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6109086281679307
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6092938498306452
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.607159302141903
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5891978391662822
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5875527762663884
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5864644822975068
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5812362259571302
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5780159710369452
+            }
+          ]
+        },
+        {
+          "query": "海边",
+          "scores": [
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.723107526113412
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.7141041739730191
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6591262715446013
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.652321710445098
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6288974795679624
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.626904258228978
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6193020067021967
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6160178681056339
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6112757527710062
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6028143981029013
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5868069361373408
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5859042921614522
+            }
+          ]
+        },
+        {
+          "query": "公路自行车",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.7089647673593065
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5715158167726722
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5700026701262207
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5672988319948813
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5649206444702651
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5611153465544755
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5508281229276855
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5483035868694981
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5455701128059592
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5437326594465238
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.531950327257011
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5252454674957019
+            }
+          ]
+        },
+        {
+          "query": "汽车",
+          "scores": [
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6344769832764355
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6251458531694155
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6199229512413724
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.614239347386458
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6088008009460774
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6077023139505326
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6065678282016657
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6040081011967082
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.6036243773344878
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6012002418359736
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5998459238892673
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5977125261451695
+            }
+          ]
+        },
+        {
+          "query": "电脑",
+          "scores": [
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6264550001217336
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6216346159169737
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6186851250829455
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.617497763514793
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6163660173377707
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.61548168536469
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6132494639405017
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6087349103782529
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6046922940352655
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6030825751785791
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5980251748445461
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5933542070959181
+            }
+          ]
+        },
+        {
+          "query": "披萨",
+          "scores": [
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6191809645381511
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6066372238990541
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6064066264638395
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6037286099448507
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5942889253585204
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5933408315380588
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.588337562599273
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5850338347417068
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.583696529088837
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5766514315943759
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5723703164303907
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5610220789115357
+            }
+          ]
+        },
+        {
+          "query": "火车",
+          "scores": [
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6191271364974306
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.601006336986066
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5943693928926621
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.593288682946564
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5924153706147942
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5843345687990754
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5836555271641788
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5780282964467935
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5779881213400714
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5774503872707316
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5752115290354778
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5679981262801328
+            }
+          ]
+        },
+        {
+          "query": "手机",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.6060826325797226
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6029900083891955
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.6020088027584223
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.600616773177513
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5995078044847373
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5951368619242657
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5946247277421145
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5904076025087721
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.5901810179066059
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5901586496848052
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5901052148642238
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5879989273266245
+            }
+          ]
+        },
+        {
+          "query": "飞机",
+          "scores": [
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.6303337066428399
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.6296810134013062
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.6229145176544861
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.616922078191542
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.6135619248370553
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.6114623372666494
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.6098022049759277
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.6072244041547907
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.6061058261302043
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.6039475079189613
+            },
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5961097696681833
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5912693314762616
+            }
+          ]
+        },
+        {
+          "query": "大象",
+          "scores": [
+            {
+              "photo": "GemmaFixture-cat.jpg",
+              "score": 0.5935927320236468
+            },
+            {
+              "photo": "GemmaFixture-dog.jpg",
+              "score": 0.5894936323624372
+            },
+            {
+              "photo": "IMG_0002.JPG",
+              "score": 0.5880548606679236
+            },
+            {
+              "photo": "IMG_0111.HEIC",
+              "score": 0.5873465794343463
+            },
+            {
+              "photo": "IMG_0005.JPG",
+              "score": 0.5813247173721112
+            },
+            {
+              "photo": "GemmaFixture-mountain.jpg",
+              "score": 0.5797567149307346
+            },
+            {
+              "photo": "IMG_0003.JPG",
+              "score": 0.5759377336556405
+            },
+            {
+              "photo": "IMG_0001.JPG",
+              "score": 0.5613827840674328
+            },
+            {
+              "photo": "GemmaFixture-coffee.jpg",
+              "score": 0.5597802095607707
+            },
+            {
+              "photo": "IMG_0004.JPG",
+              "score": 0.5592624525630906
+            },
+            {
+              "photo": "GemmaFixture-bicycle.jpg",
+              "score": 0.5552430930394952
+            },
+            {
+              "photo": "GemmaFixture-beach.jpg",
+              "score": 0.552986441248753
+            }
+          ]
+        }
+      ],
+      "name": "additional-tuning"
+    }
+  ]
+}

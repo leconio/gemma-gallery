@@ -1,0 +1,66 @@
+{
+  "version": "0.18.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "gitBlob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "swift/Benchmark.swift",
+      "gitBlob": "a08eecad06bb3108cf6315d7d934fcb2861c952d"
+    },
+    {
+      "path": "swift/Config.swift",
+      "gitBlob": "b67894f25524e8de3f8794684184e6921b938dd4"
+    },
+    {
+      "path": "swift/Conversation.swift",
+      "gitBlob": "91eae31487ed248f282337fd3cabc6f28f146058"
+    },
+    {
+      "path": "swift/EmbeddingEngine.swift",
+      "gitBlob": "f469e40f37c5a62ee43e5bf3dba99e275a9f30de"
+    },
+    {
+      "path": "swift/EmbeddingEngineConfig.swift",
+      "gitBlob": "9af6c9b6f0365e7682af580693bcdbf54f5d607a"
+    },
+    {
+      "path": "swift/Engine.swift",
+      "gitBlob": "2af6cf9bfcd19ac093124dd965b458324d85ae8b"
+    },
+    {
+      "path": "swift/ExperimentalFlags.swift",
+      "gitBlob": "c192e460be05b19173c9c3217905e76df466bd65"
+    },
+    {
+      "path": "swift/LiteRTLMError.swift",
+      "gitBlob": "5c8b86ebbc7a2ab27399465d3a83d6e0dd675f85"
+    },
+    {
+      "path": "swift/Message.swift",
+      "gitBlob": "c611793da249d793221ae8a3d95ceb1f77ab33e0"
+    },
+    {
+      "path": "swift/ModelInfo.swift",
+      "gitBlob": "3b6c18a3dc6a4f25e9e9ee72f9d8442346db1420"
+    },
+    {
+      "path": "swift/ResponseFormat.swift",
+      "gitBlob": "e3c85c2b72aeb4540133f1d8709a2cc7b3c8b9d6"
+    },
+    {
+      "path": "swift/Tool.swift",
+      "gitBlob": "aa8463592595fc02877f09e5d58b7772c9e35f7c"
+    },
+    {
+      "path": "swift/ToolManager.swift",
+      "gitBlob": "63a64aeb31196befa5283ee4f181d0e049cbe2ac"
+    }
+  ],
+  "commit": "b2f686e2ed4718fb84ec398a61dd59ca0f0aff27",
+  "binary": {
+    "url": "https://github.com/google-ai-edge/LiteRT-LM/releases/download/v0.18.0/CLiteRTLM.xcframework.zip",
+    "sha256": "d765b99592d4ec3d0c9e2bd69469454af06c834861340672da1891c0c121c347"
+  }
+}
